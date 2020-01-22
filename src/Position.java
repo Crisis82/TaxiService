@@ -34,6 +34,11 @@ public class Position {
     }
 
 
+    /**
+     * distance from the position given
+     * @param myPosition start position given by the client
+     * @return the distance between the two positions
+     */
     public int getDistance(Position myPosition){
         int distance = 0;
         distance += Math.abs(latitude - myPosition.getLatitude());
